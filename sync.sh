@@ -1,2 +1,2 @@
 cd $SYNC_FOLDER
-bypy syncup
+bypy syncup --processes 4
