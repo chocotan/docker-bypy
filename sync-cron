@@ -1,0 +1,1 @@
+0 7 16 * * sh /sync.sh >> /var/log/cron.log 2>&1
