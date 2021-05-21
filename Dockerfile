@@ -5,6 +5,7 @@ FROM python:3.8-slim-buster
 WORKDIR /
 
 RUN apt-get update && apt-get -y install cron
+RUN service cron start
 RUN pip3 install bypy
 COPY sync-cron /etc/cron.d/sync-cron
 
